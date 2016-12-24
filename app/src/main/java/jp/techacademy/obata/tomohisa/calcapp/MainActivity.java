@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         BigDecimal bdValue2;
         String txResult = "Error";
 
-        if(!editText2.getText().toString().isEmpty() & !editText2.getText().toString().isEmpty()){
+        if(!editText1.getText().toString().isEmpty() & !editText2.getText().toString().isEmpty()){
             bdValue1 = new BigDecimal(editText1.getText().toString());
             bdValue2 = new BigDecimal(editText2.getText().toString());
 
